@@ -1,7 +1,7 @@
 # 🚖 Taxi Trip Data Analysis (SQL Project)
 
 ## 📌 Project Overview
-This project demonstrates SQL techniques used by analysts to explore, clean, and analyze **NYC-style taxi trip data**.  
+This project demonstrates SQL techniques used by analysts to explore, clean, and analyze **NYC taxi trip data**.  
 It focuses on **revenue analysis, customer behavior, driver performance, and route optimization** to support data-driven business decisions.
 
 - **Project Title:** Taxi Trip Data Analysis  
