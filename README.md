@@ -5,8 +5,7 @@ This project demonstrates SQL techniques used by analysts to explore, clean, and
 It focuses on **revenue analysis, customer behavior, driver performance, and route optimization** to support data-driven business decisions.
 
 - **Project Title:** Taxi Trip Data Analysis  
-- **Level:** Beginner to Intermediate  
-- **Database:** `p2_taxi_trip_db`  
+- **Database:** NYC Taxi dataset (sourced from Kaggle)  
 - **Author:** Dhruv (IED/10017/22)  
 
 ---
@@ -61,8 +60,6 @@ It focuses on **revenue analysis, customer behavior, driver performance, and rou
 12. How does revenue compare between **weekdays and weekends**?  
 13. What were trips and revenue on **New Year’s Eve**?  
 
-*(See the [Questions PDF](Taxi_SQL_Project_Questions.pdf) for detailed list.)*
-
 ---
 
 ## 📊 Findings
@@ -75,28 +72,26 @@ It focuses on **revenue analysis, customer behavior, driver performance, and rou
 ---
 
 ## 📂 Project Files
-- `database_setup.sql` → SQL script to create database & tables.  
-- `data_cleaning.sql` → SQL queries for preprocessing.  
-- `analysis_queries.sql` → SQL queries answering business questions.  
+- `taxi_trip_analysis.sql` → SQL script containing database setup, data cleaning, and business analysis queries.  
 - `Taxi_SQL_Project_Questions.pdf` → PDF of project questions.  
 - `sample_nyc_taxi.csv` → Sample dataset for analysis.  
 
 ---
 
-## 🚀 How to Use
-1. Clone this repository.  
-2. Import the dataset (`sample_nyc_taxi.csv`) into your SQL database.  
-3. Run the scripts in order:  
-   - `database_setup.sql`  
-   - `data_cleaning.sql`  
-   - `analysis_queries.sql`  
-4. Explore and modify queries as needed.  
+📌 **Conclusion**
+
+Analyzing 5,000 taxi trips across 100 drivers and 5 city zones revealed clear operational patterns:
+
+- **Revenue:** January 2022 generated about **$134K**, with weekdays (≈$88.6K) earning nearly double weekends (≈$46.1K).  
+- **Demand Peaks:** Trips were fairly steady through the day, with late-night and early-morning hours showing consistent demand.  
+- **Top Drivers:** Driver **157** earned the most (≈$1,979), followed closely by others in the top 5.  
+- **Trip Distance:** Average trip distance per driver was around **7–8 miles**, with some drivers consistently covering longer routes.  
+- **Zones:** **Brooklyn** had the highest pickups (1,057 trips), followed by Manhattan and Staten Island.  
+- **Routes:** The **Bronx–Brooklyn** route was the busiest and also the most profitable (≈$6.1K).  
+- **Payments:** Credit cards (≈$68.3K) and cash (≈$66.4K) contributed almost equally, with similar tip percentages (~17–18%).  
+
+📊 **Insight:** Demand is strongest in urban centers and inter-borough routes, revenue is concentrated among a small set of drivers, and electronic payments dominate.  
+This suggests that driver incentives, optimized deployment in high-demand zones, and targeted promotions during weekdays and evenings can significantly boost business performance.
 
 ---
-
-## 📌 Conclusion
-This project serves as a **portfolio-ready end-to-end SQL case study**.  
-It demonstrates strong **SQL skills, analytical thinking, and business insight generation**.  
-
----
-👨‍💻 **Author: Dhruv (IED/10017/22)**  
+👨‍💻 **Author: Dhruv (IED/10017/22)**
