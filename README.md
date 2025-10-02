@@ -1,4 +1,5 @@
 # 🚖 Taxi Trip Data Analysis (SQL Project)
+![NYC Taxi Trip Analysis Dashboard](my_logo.png)
 
 ## 📌 Project Overview
 This project demonstrates SQL techniques used by analysts to explore, clean, and analyze **NYC taxi trip data**.  
