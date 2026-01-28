@@ -7,7 +7,7 @@ It focuses on **revenue analysis, customer behavior, driver performance, and rou
 
 - **Project Title:** Taxi Trip Data Analysis  
 - **Database:** NYC Taxi dataset (sourced from Kaggle)  
-- **Author:** Dhruv (IED/10017/22)  
+- **Author:** Dhruv (IED/10017/22)
 
 ---
 
