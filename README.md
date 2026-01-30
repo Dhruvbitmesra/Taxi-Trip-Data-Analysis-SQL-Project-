@@ -64,7 +64,7 @@ It focuses on **revenue analysis, customer behavior, driver performance, and rou
 ---
 
 ## 📊 Findings
-- **Peak hours**: Evenings showed maximum demand.  
+- **Peak hours**: Evenings showed maximum demand 
 - **Top drivers**: A small group of drivers contributed the most earnings.  
 - **Payment preference**: Majority of trips paid via credit card.  
 - **Zones**: Downtown and airports generated the highest trips and revenue.  
